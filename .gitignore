@@ -1,0 +1,24 @@
+# セッション・キャッシュ系（端末固有）
+sessions/
+session-env/
+backups/
+cache/
+file-history/
+telemetry/
+ide/
+shell-snapshots/
+
+# 履歴・DS_Store
+history.jsonl
+.DS_Store
+
+# ローカル設定（端末ごとに違う可能性があるもの）
+settings.local.json
+
+# プラグインマーケットプレイスキャッシュ（大量ファイル・自動生成）
+plugins/marketplaces/
+
+# セッションログ・ツール結果（端末固有）
+projects/**/*.jsonl
+projects/**/tool-results/
+projects/**/subagents/
