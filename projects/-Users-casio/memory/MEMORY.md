@@ -1,6 +1,7 @@
 # Memory Index
 
 - [_postedフォルダを作らない](feedback_no_posted_folder.md) — Obsidian保存時に_postedフォルダを作成しない
+- [削除前に確認を取る](feedback_confirm_before_delete.md) — WP投稿・Obsidianファイルの削除はユーザー確認を待ってから実行する
 - [YouTube自動アップロード設定](project_youtube_upload.md) — コマンド一発で非公開アップロードできる環境済み（~/tools/youtube_upload.py）
 - [コンサル動画→記事化ワークフロー](project_consult_workflow.md) — 動画→Premiere文字起こし→Obsidian→XMind→WordPress投稿の定型フロー
 - [Obsidian Vaultパス](reference_obsidian_vault.md) — メインVaultとタスクフォルダのパス
@@ -17,3 +18,10 @@
 - [スクショ→コード→カンプ](workflow_screenshot_to_figma.md) — スクリーンショットが貼り込まれたら自動実行：HTML/CSSコーディング→ブラウザ確認→Figmaカンプ化
 - [サムネテキストに句読点を使わない](feedback_thumbnail_no_punctuation.md) — 記事投稿時のサムネイル文字に「、」「。」を入れない
 - [/clear前にタスクを記憶する](feedback_save_tasks_before_clear.md) — /clear前に進行中タスクをメモリ保存してからクリアする
+- [「メンテして」でWP/Obsidian同期実行](feedback_maintenance_trigger.md) — 「メンテして」→ bash ~/obsidian-to-wp/wp_maintenance_flow.sh を即実行（メモリ整理ではない）
+- [Linux記事化プロジェクト](project_linux_article_conversion.md) — 487件のLinux学習ログを記事スタイルに変換中。トーン・進捗・処理順を記録
+- [Gemini CLI 検証記事の追記メモ](project_gemini_cli_article.md) — やってみた記事に追記予定の内容（インベーダーゲーム要件定義例など）
+- [情報検索はObsidianを最初に参照する](feedback_search_obsidian_first.md) — 人名・プロジェクト・過去の話題はまずObsidian検索してから回答する
+- [サムネイル自動生成システム](project_thumbnail_system.md) — HTML×Puppeteer。写真/ドット絵勇者/番号リストを切り替え可。~/thumbnail/
+- [「投稿」でObsidian・WordPress・X・サムネイル自動実行](feedback_post_all_three.md) — 投稿指示でサムネ生成→Obsidian→WP投稿（アイキャッチ差替）→X投稿を四点セット実行
+- [WP記事テーブルにmc-tableスタイルを当てる](feedback_wp_table_style.md) — 記事内テーブルは必ずmc-tableクラスのHTMLで作成（マークダウン記法は使わない）
